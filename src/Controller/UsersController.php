@@ -32,7 +32,7 @@ class UsersController extends AbstractController
 		
 		$users = new Users();
 		
-		$users->setName('Vijay');	
+		$users->setName('Ram');	
 		$users->setAge(32);	
 		$users->setAddress('San Jose, Costa Rica');	
 		$users->setDateAdded(new \DateTime('now'));	
